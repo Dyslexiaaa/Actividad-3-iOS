@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB9797D42B75A58E004CBFFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9797D32B75A58E004CBFFE /* AppDelegate.swift */; };
+		FB9797D62B75A58E004CBFFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9797D52B75A58E004CBFFE /* SceneDelegate.swift */; };
+		FB9797D82B75A58E004CBFFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9797D72B75A58E004CBFFE /* ViewController.swift */; };
+		FB9797DB2B75A58E004CBFFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9797D92B75A58E004CBFFE /* Main.storyboard */; };
+		FB9797DE2B75A58E004CBFFE /* Actividad3_Damian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB9797DC2B75A58E004CBFFE /* Actividad3_Damian.xcdatamodeld */; };
+		FB9797E02B75A590004CBFFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9797DF2B75A590004CBFFE /* Assets.xcassets */; };
+		FB9797E32B75A590004CBFFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9797E12B75A590004CBFFE /* LaunchScreen.storyboard */; };
+		FB9797EE2B75A590004CBFFE /* Actividad3_DamianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9797ED2B75A590004CBFFE /* Actividad3_DamianTests.swift */; };
+		FB9797F82B75A590004CBFFE /* Actividad3_DamianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9797F72B75A590004CBFFE /* Actividad3_DamianUITests.swift */; };
+		FB9797FA2B75A590004CBFFE /* Actividad3_DamianUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9797F92B75A590004CBFFE /* Actividad3_DamianUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB9797EA2B75A590004CBFFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB9797C82B75A58E004CBFFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9797CF2B75A58E004CBFFE;
+			remoteInfo = Actividad3_Damian;
+		};
+		FB9797F42B75A590004CBFFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB9797C82B75A58E004CBFFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9797CF2B75A58E004CBFFE;
+			remoteInfo = Actividad3_Damian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB9797D02B75A58E004CBFFE /* Actividad3_Damian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Actividad3_Damian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9797D32B75A58E004CBFFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB9797D52B75A58E004CBFFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB9797D72B75A58E004CBFFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB9797DA2B75A58E004CBFFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB9797DD2B75A58E004CBFFE /* Actividad3_Damian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Actividad3_Damian.xcdatamodel; sourceTree = "<group>"; };
+		FB9797DF2B75A590004CBFFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB9797E22B75A590004CBFFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB9797E42B75A590004CBFFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9797E92B75A590004CBFFE /* Actividad3_DamianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Actividad3_DamianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9797ED2B75A590004CBFFE /* Actividad3_DamianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad3_DamianTests.swift; sourceTree = "<group>"; };
+		FB9797F32B75A590004CBFFE /* Actividad3_DamianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Actividad3_DamianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9797F72B75A590004CBFFE /* Actividad3_DamianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad3_DamianUITests.swift; sourceTree = "<group>"; };
+		FB9797F92B75A590004CBFFE /* Actividad3_DamianUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad3_DamianUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB9797CD2B75A58E004CBFFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9797E62B75A590004CBFFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9797F02B75A590004CBFFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB9797C72B75A58E004CBFFE = {
+			isa = PBXGroup;
+			children = (
+				FB9797D22B75A58E004CBFFE /* Actividad3_Damian */,
+				FB9797EC2B75A590004CBFFE /* Actividad3_DamianTests */,
+				FB9797F62B75A590004CBFFE /* Actividad3_DamianUITests */,
+				FB9797D12B75A58E004CBFFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB9797D12B75A58E004CBFFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB9797D02B75A58E004CBFFE /* Actividad3_Damian.app */,
+				FB9797E92B75A590004CBFFE /* Actividad3_DamianTests.xctest */,
+				FB9797F32B75A590004CBFFE /* Actividad3_DamianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB9797D22B75A58E004CBFFE /* Actividad3_Damian */ = {
+			isa = PBXGroup;
+			children = (
+				FB9797D32B75A58E004CBFFE /* AppDelegate.swift */,
+				FB9797D52B75A58E004CBFFE /* SceneDelegate.swift */,
+				FB9797D72B75A58E004CBFFE /* ViewController.swift */,
+				FB9797D92B75A58E004CBFFE /* Main.storyboard */,
+				FB9797DF2B75A590004CBFFE /* Assets.xcassets */,
+				FB9797E12B75A590004CBFFE /* LaunchScreen.storyboard */,
+				FB9797E42B75A590004CBFFE /* Info.plist */,
+				FB9797DC2B75A58E004CBFFE /* Actividad3_Damian.xcdatamodeld */,
+			);
+			path = Actividad3_Damian;
+			sourceTree = "<group>";
+		};
+		FB9797EC2B75A590004CBFFE /* Actividad3_DamianTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB9797ED2B75A590004CBFFE /* Actividad3_DamianTests.swift */,
+			);
+			path = Actividad3_DamianTests;
+			sourceTree = "<group>";
+		};
+		FB9797F62B75A590004CBFFE /* Actividad3_DamianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB9797F72B75A590004CBFFE /* Actividad3_DamianUITests.swift */,
+				FB9797F92B75A590004CBFFE /* Actividad3_DamianUITestsLaunchTests.swift */,
+			);
+			path = Actividad3_DamianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB9797CF2B75A58E004CBFFE /* Actividad3_Damian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9797FD2B75A590004CBFFE /* Build configuration list for PBXNativeTarget "Actividad3_Damian" */;
+			buildPhases = (
+				FB9797CC2B75A58E004CBFFE /* Sources */,
+				FB9797CD2B75A58E004CBFFE /* Frameworks */,
+				FB9797CE2B75A58E004CBFFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Actividad3_Damian;
+			productName = Actividad3_Damian;
+			productReference = FB9797D02B75A58E004CBFFE /* Actividad3_Damian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB9797E82B75A590004CBFFE /* Actividad3_DamianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9798002B75A590004CBFFE /* Build configuration list for PBXNativeTarget "Actividad3_DamianTests" */;
+			buildPhases = (
+				FB9797E52B75A590004CBFFE /* Sources */,
+				FB9797E62B75A590004CBFFE /* Frameworks */,
+				FB9797E72B75A590004CBFFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB9797EB2B75A590004CBFFE /* PBXTargetDependency */,
+			);
+			name = Actividad3_DamianTests;
+			productName = Actividad3_DamianTests;
+			productReference = FB9797E92B75A590004CBFFE /* Actividad3_DamianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB9797F22B75A590004CBFFE /* Actividad3_DamianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9798032B75A590004CBFFE /* Build configuration list for PBXNativeTarget "Actividad3_DamianUITests" */;
+			buildPhases = (
+				FB9797EF2B75A590004CBFFE /* Sources */,
+				FB9797F02B75A590004CBFFE /* Frameworks */,
+				FB9797F12B75A590004CBFFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB9797F52B75A590004CBFFE /* PBXTargetDependency */,
+			);
+			name = Actividad3_DamianUITests;
+			productName = Actividad3_DamianUITests;
+			productReference = FB9797F32B75A590004CBFFE /* Actividad3_DamianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB9797C82B75A58E004CBFFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FB9797CF2B75A58E004CBFFE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FB9797E82B75A590004CBFFE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FB9797CF2B75A58E004CBFFE;
+					};
+					FB9797F22B75A590004CBFFE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FB9797CF2B75A58E004CBFFE;
+					};
+				};
+			};
+			buildConfigurationList = FB9797CB2B75A58E004CBFFE /* Build configuration list for PBXProject "Actividad3_Damian" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB9797C72B75A58E004CBFFE;
+			productRefGroup = FB9797D12B75A58E004CBFFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB9797CF2B75A58E004CBFFE /* Actividad3_Damian */,
+				FB9797E82B75A590004CBFFE /* Actividad3_DamianTests */,
+				FB9797F22B75A590004CBFFE /* Actividad3_DamianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB9797CE2B75A58E004CBFFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9797E32B75A590004CBFFE /* LaunchScreen.storyboard in Resources */,
+				FB9797E02B75A590004CBFFE /* Assets.xcassets in Resources */,
+				FB9797DB2B75A58E004CBFFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9797E72B75A590004CBFFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9797F12B75A590004CBFFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB9797CC2B75A58E004CBFFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9797D82B75A58E004CBFFE /* ViewController.swift in Sources */,
+				FB9797D42B75A58E004CBFFE /* AppDelegate.swift in Sources */,
+				FB9797D62B75A58E004CBFFE /* SceneDelegate.swift in Sources */,
+				FB9797DE2B75A58E004CBFFE /* Actividad3_Damian.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9797E52B75A590004CBFFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9797EE2B75A590004CBFFE /* Actividad3_DamianTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9797EF2B75A590004CBFFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9797FA2B75A590004CBFFE /* Actividad3_DamianUITestsLaunchTests.swift in Sources */,
+				FB9797F82B75A590004CBFFE /* Actividad3_DamianUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB9797EB2B75A590004CBFFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9797CF2B75A58E004CBFFE /* Actividad3_Damian */;
+			targetProxy = FB9797EA2B75A590004CBFFE /* PBXContainerItemProxy */;
+		};
+		FB9797F52B75A590004CBFFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9797CF2B75A58E004CBFFE /* Actividad3_Damian */;
+			targetProxy = FB9797F42B75A590004CBFFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB9797D92B75A58E004CBFFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9797DA2B75A58E004CBFFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB9797E12B75A590004CBFFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9797E22B75A590004CBFFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB9797FB2B75A590004CBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB9797FC2B75A590004CBFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB9797FE2B75A590004CBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Actividad3_Damian/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "damian.Actividad3-Damian";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB9797FF2B75A590004CBFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Actividad3_Damian/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "damian.Actividad3-Damian";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB9798012B75A590004CBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "damian.Actividad3-DamianTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Actividad3_Damian.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Actividad3_Damian";
+			};
+			name = Debug;
+		};
+		FB9798022B75A590004CBFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "damian.Actividad3-DamianTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Actividad3_Damian.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Actividad3_Damian";
+			};
+			name = Release;
+		};
+		FB9798042B75A590004CBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "damian.Actividad3-DamianUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Actividad3_Damian;
+			};
+			name = Debug;
+		};
+		FB9798052B75A590004CBFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "damian.Actividad3-DamianUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Actividad3_Damian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB9797CB2B75A58E004CBFFE /* Build configuration list for PBXProject "Actividad3_Damian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9797FB2B75A590004CBFFE /* Debug */,
+				FB9797FC2B75A590004CBFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9797FD2B75A590004CBFFE /* Build configuration list for PBXNativeTarget "Actividad3_Damian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9797FE2B75A590004CBFFE /* Debug */,
+				FB9797FF2B75A590004CBFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9798002B75A590004CBFFE /* Build configuration list for PBXNativeTarget "Actividad3_DamianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9798012B75A590004CBFFE /* Debug */,
+				FB9798022B75A590004CBFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9798032B75A590004CBFFE /* Build configuration list for PBXNativeTarget "Actividad3_DamianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9798042B75A590004CBFFE /* Debug */,
+				FB9798052B75A590004CBFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB9797DC2B75A58E004CBFFE /* Actividad3_Damian.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB9797DD2B75A58E004CBFFE /* Actividad3_Damian.xcdatamodel */,
+			);
+			currentVersion = FB9797DD2B75A58E004CBFFE /* Actividad3_Damian.xcdatamodel */;
+			path = Actividad3_Damian.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB9797C82B75A58E004CBFFE /* Project object */;
+}
